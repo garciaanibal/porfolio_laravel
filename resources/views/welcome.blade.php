@@ -43,6 +43,7 @@
                     <a  class="p-2 text-white bg-gray-400 rounded hover:bg-gray-200 hover:text-gray-400" href="{{ route('lanzar.exam.admin') }}" target="_black" >Administrativo</a>
                     <a  class="p-2 text-white bg-gray-400 rounded hover:bg-gray-200 hover:text-gray-400" href="{{ route('lanzar.exam.tec') }}" target="_black" >Técnico</a>
                     <a  class="p-2 text-white bg-gray-400 rounded hover:bg-gray-200 hover:text-gray-400" href="{{ route('lanzar.exam.maes') }}" target="_black" > Maestranza </a>
+                    <a  class="p-2 text-white bg-gray-400 rounded hover:bg-gray-200 hover:text-gray-400" href="{{ route('lanzar.exam.maes') }}" target="_black" > Importar </a>
                 </div>
 
                 {{-- <div class="mt-16">

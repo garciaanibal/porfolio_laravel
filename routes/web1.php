@@ -20,8 +20,19 @@ Route::get('/', function () {
     // ->orderByRaw("RAND()")
     // ->limit(5)->get(); //get();
     // dd($questions);
+    // return view('welcome');
     return view('welcome');
 });
+
+
+// Ruta  profile
+Route::view('profile', 'profile')
+    ->middleware(['auth'])
+    ->name('profile');
+
+require __DIR__.'/auth.php';
+
+//Route concurso2023
 
 Route::get('/lanzar-admin', function () {
 
@@ -121,3 +132,4 @@ Route::get('/lanzar-exam-maes', function () {
     // return redirect('https://examen2023-prueba.chaco.gob.ar/login-for-hash/'.$code);
 
 })->name('lanzar.exam.maes');
+
